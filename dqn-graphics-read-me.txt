@@ -1,0 +1,10 @@
+This turns on graphics, but remember to train your network before you watch it play
+, otherwise there isn't much to see.
+
+$ ./dqn-graphics.sh
+If you want to revert the changes, run the script with the -r option
+
+$ chmod +x dqn-graphics.sh
+$ ./dqn-graphics.sh -r
+Note that this reverts the display settings, but does not uninstall qtlua.
+Run it with run_cpu or run_gpu (I haven't been able to test run_gpu though). Have fun watching it play.
